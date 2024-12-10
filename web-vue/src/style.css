@@ -1,0 +1,115 @@
+/* BOTON DIA Y NOCHE */
+:root {
+  --background-color: linear-gradient(to right, #041028, 10%, #04183d, 90%, #041028);
+  --text-color: #ffffff;
+  --secondary-text-color: #d2d2d2;
+  --highlight-color: #ffff00;
+  --formulario-color: rgb(240, 246, 245);
+  --timeline-color: rgba(255, 255, 255, 0.2);
+  --on-background-color-secondary: #909090;
+  --header-sticky-background-color: rgba(255, 255, 255, 0.2);
+  --button-text-color-hover: rgba(46, 177, 221);
+  --button-text-color: #352504;
+  --highlight-color: yellow;
+  --button-background-color: #664200;
+  --button-hover-background-color: #ff5bf1;
+  --button-text-color: #fcfcfc;
+  --background-color-formulario_entradas: rgba(255, 255, 255, 0.2);
+  --formulario-entradas-border: 1px solid rgba(255, 255, 255, 0.3);
+  --button-background-color-formulario: #744bfc;
+  --button-color-hover-formulario: rgb(23, 121, 226);
+  --color-select: rgb(12, 12, 122);
+}
+
+
+[data-theme="light"] {
+  --background-color: linear-gradient(to right, #d0d1d2, 10%, #ffffff, 90%, #d0d1d2);
+  --text-color: #000000;
+  --secondary-text-color: #3d3d3e;
+  --highlight-color: #ffa500; /* Naranja para el texto destacado en modo light */
+  --formulario-color: #04183d;
+  --on-background-color-secondary: #a1a1a1;
+  --button-background-color: #28a745; /* Verde para el botón en modo light */
+  --button-border-color: #28a745; /* Borde verde en modo light */
+  --button-text-color: #02310c; /* Texto blanco en modo light */
+  --button-text-color-hover: #efc94d;
+  --timeline-color: rgba(0, 0, 0, 0.2);
+  --header-sticky-background-color: transparent;
+  --button-hover-background-color: #ff5bf1;
+  --background-color-formulario_entradas: rgba(190, 189, 187, 0.2);
+  --formulario-entradas-border: 1px solid rgba(95, 95, 92, 0.3);
+  --button-background-color-formulario: #ef9220;
+  --button-color-hover-formulario: rgb(221, 46, 78);
+  --color-select: rgb(230, 93, 25);
+}
+
+.highlight {
+  color: var(--highlight-color);
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* FIN BOTON DIA Y NOCHE */
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Noto Sans', sans-serif;
+  margin: auto;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+p {
+  color: var(--secondary-text-color)
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

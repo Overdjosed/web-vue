@@ -1,0 +1,26 @@
+[
+    {
+      "title": "El Juego de la vida.",
+      "subtitle": "Programación funcional con Haskell",
+      "time": "20/02/2023",
+      "image": "assets/images/game_of_life.png",
+      "description": "Creamos un proyecto en Haskell que simula el famoso 'Juego de la vida' con principios de programación funcional.",
+      "link": "https://es.wikipedia.org/wiki/Juego_de_la_vida"
+    },
+    {
+      "title": "Optimización Matemática",
+      "subtitle": "Programación Lineal y Cuadrática",
+      "time": "5/11/2023",
+      "image": "assets/images/opti_imagen.jpeg",
+      "description": "Desarrollamos modelos de optimización matemática utilizando técnicas de programación lineal y cuadrática.",
+      "link": "https://gl.wikipedia.org/wiki/Optimizaci%C3%B3n_matem%C3%A1tica"
+    },
+    {
+      "title": "Diccionarios",
+      "subtitle": "Programación con Java",
+      "time": "03/03/2024",
+      "image": "assets/images/programacion-concurrente.jpeg",
+      "description": "Desarrollamos un sistema de diccionarios y bancos de datos utilizando programación concurrente en Java.",
+      "link": "https://codegym.cc/es/groups/posts/es.653.como-crear-un-diccionario-en-java"
+    }
+  ]

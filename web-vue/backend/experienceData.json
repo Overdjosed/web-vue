@@ -1,0 +1,25 @@
+[
+    {
+      "title": "Juego de Póker",
+      "subtitle": "Simulación de un juego de póker programado en Python usando clases.",
+      "time": "9/12/2022",
+      "description": "Este programa simula un juego de póker básico, utilizando una clase para representar las cartas y otra para gestionar las manos de los jugadores. Incluye funcionalidad para repartir cartas, determinar el ganador y seleccionar modo de juego.",
+      "link": "https://codepal.ai/code-generator/query/3VkdRrrc/texas-holdem-poker-game"
+    },
+    {
+      "title": "Implementación de Grafos en Python",
+      "subtitle": "Implementación de Grafos en Python",
+      "time": "21/04/2023",
+      "description": "Este proyecto implementa un grafo mediante vértices enlazados. Cada nodo del grafo contiene atributos y relaciones con otros nodos adyacentes, permitiendo realizar análisis y recorridos sobre la estructura.",
+      "link": "https://www.techiedelight.com/graph-implementation-python"
+    },
+    {
+      "title": "Análisis de Algoritmos de Ordenamiento",
+      "subtitle": "Quicksort y otros métodos de ordenamiento",
+      "time": "8/04/2022",
+      "description": "En Agosto de 2024, realizamos un análisis detallado sobre el algoritmo de ordenamiento Quicksort, explorando su eficiencia y aplicaciones.",
+      "link": "../pdfs/an_algoritmos.pdf"
+     
+    }
+  ]
+  
