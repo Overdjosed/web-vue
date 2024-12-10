@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'), // Este es el alias para la carpeta src
+      '@': '/src', // Este es el alias para la carpeta src
     },
   },
 });

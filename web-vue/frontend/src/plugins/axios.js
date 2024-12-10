@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const instanciaAxios = axios.create({
-    baseURL: 'http://localhost:5000',  // URL base del backend de Flask
+    baseURL: 'https://backend-l8ve.onrender.com',  // URL base del backend de Flask
 });
 
 // Funciones para proyectos
