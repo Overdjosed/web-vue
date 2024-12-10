@@ -9,4 +9,9 @@ export default defineConfig({
       '@': '/src', // Este es el alias para la carpeta src
     },
   },
+  build: {
+    rollupOptions: {
+      external: [], // Asegúrate de que vue-router no esté listado aquí
+    },
+  },
 });
